@@ -1,0 +1,44 @@
+nav {
+  height: 50px;
+  font-family: '宋体';
+  top: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+nav i {
+  width: 28px;
+  height: 5px;
+}
+.container {
+  font-family: '宋体';
+}
+.container li {
+  height: 50px;
+  border-bottom: 1px solid #ebebee;
+}
+.container li span:last-child {
+  max-width: 240px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.footer-btn button {
+  width: 40%;
+  height: 40px;
+  outline: none;
+  border: 0;
+  padding: 0;
+  border-radius: 5px;
+  line-height: 40px;
+}
+.footer-btn button a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.footer-btn button:first-child {
+  background-color: #337ab7;
+}
+.footer-btn button:last-child {
+  background-color: #f40;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>添加人物</title>
+  <link rel="stylesheet" href="./styles/css/common/base.css">
+  <link rel="stylesheet" href="./styles/css/common/common.css">
+  <link rel="stylesheet" href="./styles/css/push.css">
+</head>
+
+<body>
+  <nav class="wp-100 bc-fff flex jc-sb ai-c fs-20">
+    <a href="./list.html" class="fs-14">返回</a>
+    <span>添加人物</span>
+    <i></i>
+  </nav>
+
+  <ul class="container mt-5 bc-fff wp-100">
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="imgUrl">头像地址:</label>
+      <div class="check">选填</div>
+      <input type="text" id="imgUrl">
+    </li>
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="name">人物名字:</label>
+      <div class="check">必填</div>
+      <input type="text" id="name">
+    </li>
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="age">人物年龄:</label>
+      <div class="check">选填</div>
+      <input type="text" id="age">
+    </li>
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="occupation">人物职业:</label>
+      <div class="check">选填</div>
+      <input type="text" id="occupation">
+    </li>
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="skills">人物技能:</label>
+      <div class="check">选填，至少三个技能并用逗号隔开</div>
+      <input type="text" id="skills">
+    </li>
+    <li class="flex jc-sb ai-c fs-18 pl-15 pr-5">
+      <label for="passive">人物被动:</label>
+      <div class="check">选填</div>
+      <input type="text" id="passive">
+    </li>
+  </ul>
+
+  <div class="submit wp-100">
+    <p class="fc-fff">提交</p>
+  </div>
+
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/push.js"></script>
+</body>
+
+</html>

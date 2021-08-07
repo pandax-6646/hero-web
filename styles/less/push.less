@@ -1,0 +1,67 @@
+nav {
+  height: 50px;
+  font-family: "宋体";
+  top: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  i {
+    width: 28px;
+    height: 5px;
+  }
+}
+
+.container {
+  font-family: "宋体";
+
+  li {
+    position: relative;
+    height: 55px;
+    border-bottom: 1px solid #ebebeb;
+
+    div {
+      position: absolute;
+      display: block;
+      font-family: "宋体";
+      left: 125px;
+      top: 18px;
+      font-size: 15px;
+      color: #757575;
+      background-color: #fff;
+      transform: translate3d(0, 0, 0);
+      transition: all .5s;
+    }
+
+    input {
+      height: 35px;
+      flex-grow: 1;
+      border: 1px solid #ebebeb;
+      margin-left: 15px;
+      text-indent: 10px;
+      outline: none;
+      border-radius: 5px;
+      box-shadow: 0 0 0 1px transparent;
+      font-size: 15px;
+
+      &:focus {
+        border-color: #c2e8c2;
+        box-shadow: 0 0 0 1px #c2e8c2;
+      }
+    }
+  }
+}
+
+.submit {
+  margin-top: 50px;
+  padding: 0 40px;
+  height: 50px;
+  box-sizing: border-box;
+
+  p {
+    height: 100%;
+    background-color: #337ab7;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+  }
+}

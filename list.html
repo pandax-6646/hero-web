@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>人物列表</title>
+  <link rel="stylesheet" href="./styles/css/common/base.css">
+  <link rel="stylesheet" href="./styles/css/common/common.css">
+  <link rel="stylesheet" href="./styles/css/list.css">
+</head>
+
+<body>
+  <nav class="wp-100 bc-fff flex jc-sb ai-c fs-20 fixed">
+    <i></i>
+    <span>人物列表</span>
+    <a href="./push.html" class="fs-14">添加</a>
+  </nav>
+
+  <ul class="nav-top-bar bc-fff flex ai-c jc-sb fixed wp-100 fs-14 fw-r">
+    <li class="flex fw-nr ai-c jc-sa active">
+      <span id="all">
+        <i></i>
+      </span>
+      <label for="all">全部</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="tank">
+        <i></i>
+      </span>
+      <label for="tank">坦克</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="warrior">
+        <i></i>
+      </span>
+      <label for="warrior">战士</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="assassin">
+        <i></i>
+      </span>
+      <label for="assassin">刺客</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="master">
+        <i></i>
+      </span>
+      <label for="master">法师</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="shooter">
+        <i></i>
+      </span>
+      <label for="shooter">射手</label>
+    </li>
+    <li class="flex fw-nr ai-c jc-sa">
+      <span id="auxiliary">
+        <i></i>
+      </span>
+      <label for="auxiliary">辅助</label>
+    </li>
+  </ul>
+
+  <ul class="mt-5 container bc-fff mb-10"></ul>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/list.js"></script>
+</body>
+
+</html>

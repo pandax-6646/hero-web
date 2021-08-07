@@ -1,0 +1,71 @@
+nav {
+  height: 50px;
+  font-family: "宋体";
+  top: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  i {
+    width: 28px;
+    height: 5px;
+  }
+}
+
+.nav-top-bar {
+  top: 0px;
+  height: 80px;
+  margin-top: 50px;
+  font-family: "宋体";
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-top: 1px solid #ebebeb;
+  box-shadow: 0 3px 3px 0px rgba(34, 34, 34, 0.2);
+
+  li {
+    width: 70px;
+    height: 30px;
+
+    span {
+      position: relative;
+      height: 14px;
+      width: 14px;
+      border: 1px solid #b3b3b3;
+      border-radius: 50%;
+      box-sizing: border-box;
+
+      i {
+        position: absolute;
+        height: 8px;
+        width: 8px;
+        top: calc(50% - 4px);
+        left: calc(50% - 4px);
+
+        border-radius: 50%;
+      }
+    }
+  }
+
+  li.active i {
+    background-color: #358add;
+  }
+}
+
+.container {
+  font-family: "宋体";
+  margin-top: 135px;
+  border-radius: 10px;
+  li {
+    height: 60px;
+    border-bottom: 1px solid #eee;
+
+    img {
+      height: 50px;
+      width: 50px;
+      border-radius: 5px;
+    }
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
