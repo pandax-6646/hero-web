@@ -2,7 +2,7 @@ var utils = {
 
   // 数据请求
   request(url, data = '', type) {
-    var url = 'http:/47.107.117.248:3000/' + url;
+    var url = 'http:/47.107.117.248:3001/' + url;
 
     var result = new Promise(function (resolve, reject) {
       $.ajax({
